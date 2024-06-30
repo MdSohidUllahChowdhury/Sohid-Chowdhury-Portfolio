@@ -12,12 +12,12 @@ class Mylinks extends StatelessWidget {
             children: [
               Link(
                   uri: Uri.parse('https://github.com/MdSohidUllahChowdhury'),
-                  builder: (context, followLink) => ElevatedButton(
+                  builder: (context, followLink) => IconButton(
                         
                         onPressed: followLink,
-                        child: const Icon(
+                        icon: const Icon(
                           FontAwesomeIcons.github,
-                          size: 20,
+                          size: 30,
                           color: Colors.black,
                         ),
                       )
@@ -25,31 +25,31 @@ class Mylinks extends StatelessWidget {
               Link(
                   uri: Uri.parse(
                       'https://www.linkedin.com/in/sohid-chowdhury/'),
-                  builder: (context, followLink) => ElevatedButton(
+                  builder: (context, followLink) => IconButton(
                         onPressed: followLink,
-                        child: const Icon(
+                        icon: const Icon(
                           FontAwesomeIcons.linkedin,
-                          size: 20,
-                          color: Colors.blue,
+                          size: 30,
+                          color: Colors.black,
                         ),
                       )),const SizedBox(width: 10,),
               Link(
                   uri: Uri.parse('https://www.facebook.com/shakilchowdhury19'),
-                  builder: (context, followLink) => ElevatedButton(
+                  builder: (context, followLink) => IconButton(
                         onPressed: followLink,
-                        child: const Icon(
+                        icon: const Icon(
                           FontAwesomeIcons.facebook,
-                          size: 20,
-                          color: Colors.blueAccent,
+                          size: 30,
+                          color: Colors.black,
                         ),
                       )),const SizedBox(width: 10,),
               Link(
                   uri: Uri.parse('https://www.instagram.com/shakil_chowdhury19'),
-                  builder: (context, followLink) => ElevatedButton(
+                  builder: (context, followLink) => IconButton(
                         onPressed: followLink,
-                        child: const Icon(
+                        icon: const Icon(
                           FontAwesomeIcons.instagram,
-                          size: 20,
+                          size: 30,
                           color: Colors.black,
                         ),
                       )),

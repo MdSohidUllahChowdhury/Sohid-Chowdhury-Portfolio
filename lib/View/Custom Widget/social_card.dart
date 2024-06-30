@@ -35,7 +35,7 @@ class SocialCard extends StatelessWidget {
           child:const Column(
             children: [
               SizedBox(height: 8,),
-              Text('Connect With Me Following by Social Media Links',
+              Text('Connect With Me by Following Social Media Links',
               style: TextStyle(
                   fontSize: 9,
                   fontWeight: FontWeight.w700,

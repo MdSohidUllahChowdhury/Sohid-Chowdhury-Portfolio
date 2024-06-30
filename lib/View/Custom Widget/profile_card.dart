@@ -8,7 +8,7 @@ class ProfileCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Container(
-           height: Get.height *.4,
+           height: Get.height *.36,
            width:  Get.width * 9,
            margin:const EdgeInsets.all(15),
             decoration:const BoxDecoration(
@@ -37,7 +37,7 @@ class ProfileCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundImage: AssetImage('lib/Assets/profile.png'),
-                  radius: 60,
+                  radius: 80,
                 ),
                 SizedBox(height: 8),
                 Text('Md Sohid Ullah Chowdhury',
