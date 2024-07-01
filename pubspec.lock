@@ -168,14 +168,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
-  quiver:
-    dependency: transitive
-    description:
-      name: quiver
-      sha256: b1c1ac5ce6688d77f65f3375a9abb9319b3cb32486bdc7a1e0fdf004d7ba4e47
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -229,14 +221,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
-  uri:
+  unicons:
     dependency: "direct main"
     description:
-      name: uri
-      sha256: "889eea21e953187c6099802b7b4cf5219ba8f3518f604a1033064d45b1b8268a"
+      name: unicons
+      sha256: "1cca7462df18ff191b7e41b52f747d08854916531d1d7ab7cec0552095995206"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "2.1.2"
   url_launcher:
     dependency: "direct main"
     description:

@@ -10,6 +10,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Color.fromARGB(188, 0, 0, 0),
       
       body:Column(
         mainAxisAlignment: MainAxisAlignment.start,

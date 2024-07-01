@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sohid_chowdhury_portfolio/View/myproject.dart';
-import 'package:sohid_chowdhury_portfolio/View/skills.dart';
+import 'package:sohid_chowdhury_portfolio/View/Screen/myproject.dart';
+import 'package:sohid_chowdhury_portfolio/View/Screen/skills.dart';
 import 'package:url_launcher/link.dart';
 
 class ExpartCard extends StatelessWidget {
@@ -34,7 +34,7 @@ class ExpartCard extends StatelessWidget {
             BoxShadow(
                 color: Colors.black, blurRadius: 9.5, offset: Offset(5, 3.5)),
           ]),
-      child: Column(
+        child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -66,7 +66,7 @@ class ExpartCard extends StatelessWidget {
                     style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                                    ),
+                                 ),
                                   ),
                   )),
             ),
