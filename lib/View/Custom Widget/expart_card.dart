@@ -94,7 +94,7 @@ class ExpartCard extends StatelessWidget {
                   ]),
               child:  Center(
                   child: InkWell(
-                    onTap: () => Get.to(const ProjectSection()),
+                    onTap: () => Get.to( MyProject()),
                     child:const Text(
                                     'MY\nBUILTED\nPROJECT',
                                     style: TextStyle(
